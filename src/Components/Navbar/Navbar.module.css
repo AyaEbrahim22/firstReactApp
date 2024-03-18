@@ -1,0 +1,36 @@
+
+.navcss{
+    background-color: #2C3E50;
+    height: 106px;
+    transition: 0.4s height ease-in-out;
+}
+.navbarlogo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px
+}
+.navbarlogo:focus{
+    color: #fff;
+}
+.navbarlogo:hover{
+    color: #fff;
+}
+.navlink{
+ font-weight: 700;
+ color: #fff;
+ padding-inline: 15px;
+ border-radius: 6px;
+}
+.navlink:focus{
+    color: #fff;
+}
+.linkactive{
+    background-color: #1ABC9C;
+    
+}
+.navlink:hover{
+    color: #fff
+}
+ul{
+    background-color: #2C3E50;
+}

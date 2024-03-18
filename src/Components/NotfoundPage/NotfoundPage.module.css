@@ -1,0 +1,14 @@
+.sectionNotfoundPage{
+    height: 97vh;
+    background-color: #1ABC9C;
+}
+.NotfoundPagecontent{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.NotfoundPagecontent h1{
+    font-size: 60px
+}

@@ -1,0 +1,39 @@
+.header{
+    background-color: #1ABC9C;
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+h1{
+    padding: 30px 0 5px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.afterIcon{
+    position: relative;
+}
+.afterIcon:after{
+    content: '';
+    width: 73px;
+    height: 4px;
+    position: absolute;
+    top: 12px;
+    right: 55%;
+    background-color: #fff;
+}
+.afterIcon:before{
+    content: '';
+    width: 73px;
+    height: 4px;
+    position: absolute;
+    top: 12px;
+    left: 55%;
+    background-color: #fff;
+}
+.homeimg{
+    width: 50%;
+    margin-top: 80px;
+}

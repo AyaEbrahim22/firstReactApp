@@ -1,0 +1,65 @@
+.contactSection{
+    height: 86vh;
+    width: 100%;
+    margin-top: 106px;
+}
+.porth2{
+    color: #2C3E50;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.contactSection i{
+    font-size: 16px;
+}
+.afterIcon{
+    position: relative;
+    color: #2C3E50;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.afterIcon:after{
+    content: '';
+    width: 73px;
+    height: 4px;
+    position: absolute;
+    top: 15px;
+    right: 52%;
+    background-color: #2C3E50;
+}
+.afterIcon:before{
+    content: '';
+    width: 73px;
+    height: 4px;
+    position: absolute;
+    top: 15px;
+    left: 52%;
+    background-color: #2C3E50;
+}
+.contactSection form{
+    width: 55%;
+}
+.form{
+    padding: 10px;
+}
+.form:focus{
+    border-color: #dee2e6; 
+    box-shadow: none; 
+ 
+}
+.contactSection form button{
+    background-color: #1ABC9C;
+    color: #fff;
+}
+.contactSection form button:hover{
+    background-color: #1ABC9C;
+    color: #fff;
+}
+.formLabel{
+    color: #1ABC9C;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s bottom ease-in-out;
+}

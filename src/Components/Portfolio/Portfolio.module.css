@@ -1,0 +1,60 @@
+.portsection{
+    margin-top: 106px;
+}
+.porth2{
+    color: #2C3E50;
+}
+.portsection i{
+    font-size: 16px;
+}
+.portsection .pluslayer i{
+    font-size: 90px;
+    color: #fff;
+}
+.afterIcon{
+    position: relative;
+    color: #2C3E50;
+    font-size: 20px;
+}
+.afterIcon:after{
+    content: '';
+    width: 73px;
+    height: 4px;
+    position: absolute;
+    top: 13px;
+    right: 52%;
+    background-color: #2C3E50;
+}
+.afterIcon:before{
+    content: '';
+    width: 73px;
+    height: 4px;
+    position: absolute;
+    top: 13px;
+    left: 52%;
+    background-color: #2C3E50;
+}
+.pluslayer{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color:#1abc9ceb;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s opacity ease-in-out;
+}
+.pluslayer:hover{
+    opacity: 1;
+}
+.bglayer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(13,110,253,.25);
+}

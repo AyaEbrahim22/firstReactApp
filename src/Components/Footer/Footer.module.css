@@ -1,0 +1,15 @@
+.bottomfooter{
+    background-color: #1A252F;
+    color: #fff;
+}
+.topfooter{
+    background-color: #2C3E50;
+    padding: 80px 0;
+    color: #fff;
+}
+.sociallink{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+}

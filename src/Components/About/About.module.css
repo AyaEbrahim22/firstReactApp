@@ -1,0 +1,40 @@
+.aboutsection{
+    background-color: #1ABC9C;
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.abouth2{
+    padding: 30px 0 5px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.afterIcon{
+    position: relative;
+}
+.afterIcon:after{
+    content: '';
+    width: 73px;
+    height: 4px;
+    position: absolute;
+    top: 12px;
+    right: 53%;
+    background-color: #fff;
+}
+.afterIcon:before{
+    content: '';
+    width: 73px;
+    height: 4px;
+    position: absolute;
+    top: 12px;
+    left: 53%;
+    background-color: #fff;
+}
+@media screen and (min-width: 1200px){
+   .container{
+    max-width: 1200px !important;
+   }
+}
